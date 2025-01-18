@@ -181,7 +181,6 @@ li {
     margin: 0 auto;
 }
 
-.banner_info{}
 .banner_info h1{
     color: var(--white-heading);
     font-size: 84px;
@@ -267,8 +266,7 @@ li {
     padding-bottom: 48px;
     background: #fdfdfd;
 }
-.choose_item {}
-.choose_item ul{}
+
 .choose_item ul li{
     background: transparent;
     padding: 28px 47px 28px 28px;
@@ -282,7 +280,7 @@ li {
     background: var(--white);
     box-shadow: 10px 30px 60px 0 rgba(162, 169, 192, 0.15);
 }
-.choose_item ul li span{}
+
 .choose_item ul li p{
     color: var(--paragraph-72);
 }
@@ -569,12 +567,12 @@ margin: 0 auto;
 
 
 }
-##testimonial .carousel-control-next{
+#testimonial .carousel-control-next{
     right: -43px;
     top: 50%;
     transform: translateY(-50%);
 }
-##testimonial .carousel-control-prev{
+#testimonial .carousel-control-prev{
     right: -43px;
     top: 50%;
     transform: translateY(-50%);
