@@ -11,6 +11,8 @@
           crossorigin="anonymous">
     <!-- Custom CSS -->
     <link href="style.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   </head>
   <body>
     <!-- Navbar Start -->
@@ -63,7 +65,7 @@
        <section id="banner">
         <div class="container">
           <div class="banner_info">
-            <h1>You’re Unique.Your Website Should be too</h1>
+            <h1>You're Unique.Your Website Should be too</h1>
             <p>A beautiful website passionately crafted for your small business.  Our Digital Agency development has changed the way brands and businesses use technology for growing business. </p>
           <div class="banner_btn">
             <a href="#" class="button">Get free Quoto</a>
@@ -391,8 +393,8 @@
                                   <img src="./media/star.svg" alt="image">
                                 </li>
                               </ul>
-                              <p>Lesser Replenish bearing they’re him cattle kind dominion. You 
-                                which fill place. Land she’d subdue divided gathering blessed
+                              <p>Lesser Replenish bearing they're him cattle kind dominion. You 
+                                which fill place. Land she'd subdue divided gathering blessed
                                 seasons it. Without, wherein days.</p>
                             </div>
                           </div>
@@ -419,8 +421,8 @@
                                   <img src="./media/star.svg" alt="image">
                                 </li>
                               </ul>
-                              <p>Lesser Replenish bearing they’re him cattle kind dominion. You 
-                                which fill place. Land she’d subdue divided gathering blessed
+                              <p>Lesser Replenish bearing they're him cattle kind dominion. You 
+                                which fill place. Land she'd subdue divided gathering blessed
                                 seasons it. Without, wherein days.</p>
                             </div>
                           </div>
@@ -510,34 +512,73 @@
 
           <footer>
             <div class="container">
-              <div class="footer">
-                <div>
-                  <div class="left_side"><img src="media/Logo.png" alt="logo">
-                    <p>Install any demo or template with a single click. You can mix and match all the demos & templates. Every demo can be turned into one or multi-page.</p>
+              <div class="footer-content">
+                <div class="row">
+                  <!-- Company Info Column -->
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="footer-company-info">
+                      <img src="media/Logo.png" alt="logo" class="footer-logo mb-3">
+                      <p class="company-description">Install any demo or template with a single click. You can mix and match all the demos & templates. Every demo can be turned into one or multi-page.</p>
+                      <div class="social-links mt-3">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Features Column -->
+                  <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="footer-heading">Features</h5>
+                    <ul class="footer-links">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Benefits</a></li>
+                      <li><a href="#">Pricing</a></li>
+                      <li><a href="#">Blog</a></li>
+                    </ul>
+                  </div>
+
+                  <!-- Products Column -->
+                  <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="footer-heading">Products</h5>
+                    <ul class="footer-links">
+                      <li><a href="#">Task Management</a></li>
+                      <li><a href="#">Company Growth</a></li>
+                      <li><a href="#">Time Tracking</a></li>
+                      <li><a href="#">Project Planning</a></li>
+                      <li><a href="#">Mobile Apps</a></li>
+                    </ul>
+                  </div>
+
+                  <!-- Support Column -->
+                  <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="footer-heading">Support</h5>
+                    <ul class="footer-links">
+                      <li><a href="#">Customer Service</a></li>
+                      <li><a href="#">Accessibility</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">Documentation</a></li>
+                    </ul>
                   </div>
                 </div>
-                <div>
-                  <ul> <h5>Features</h5>
-                    <li><a href="#">Home</a></li>
-                    <li>About</li>
-                    <li>Benefit</li>
-                    <li>Pricing</li>
-                    <li>Blog</li>
-                  </ul>
-                </div>
-                <div>
-                  <ul><h5>Products</h5>
-                    <li><a href="#">Task Management</a></li>
-                    <li>Company Growth</li>
-                    <li>Time Tracking</li>
-                  </ul>
-                </div>
-                <div>
-                  <ul><h5>Support</h5>
-                    <li><a href="#">Customer Service</a></li>
-                    <li>Accesibility</li>
-                    <li>Contact Us</li>
-                  </ul>
+              </div>
+
+              <!-- Footer Bottom -->
+              <div class="footer-bottom">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p class="copyright">© 2024 Your Company. All rights reserved.</p>
+                  </div>
+                  <div class="col-md-6">
+                    <ul class="footer-bottom-links">
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Terms of Service</a></li>
+                      <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
@@ -555,6 +596,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
             crossorigin="anonymous"></script>
-            
+    <!-- Custom JS -->
+    <script src="script.js"></script>
   </body>
 </html>

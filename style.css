@@ -650,5 +650,137 @@ margin: 0 auto;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+/* Footer Styles */
+footer {
+    background-color: #48409C;
+    padding: 80px 0 20px;
+    margin-top: 100px;
+}
+
+.footer-content {
+    margin-bottom: 40px;
+}
+
+.footer-company-info .company-description {
+    color: var(--white-paragraph);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.footer-logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-link {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: var(--white);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.social-link:hover {
+    background-color: var(--primary);
+    color: var(--white);
+    transform: translateY(-3px);
+    border-color: var(--primary);
+}
+
+.footer-heading {
+    color: var(--white);
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: var(--white-paragraph);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 15px;
+}
+
+.footer-links a:hover {
+    color: var(--primary);
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+}
+
+.copyright {
+    color: var(--white-paragraph);
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-bottom-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.footer-bottom-links a {
+    color: var(--white-paragraph);
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-bottom-links a:hover {
+    color: var(--primary);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-bottom-links {
+        justify-content: flex-start;
+        margin-top: 15px;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+    
+    .footer-heading {
+        margin-top: 30px;
+    }
+}
 
 /*Footer Section End */
+
+/* Update the grid columns for better spacing */
+.footer-content .row {
+    justify-content: space-between;
+}
+
+/* Adjust the column widths */
+.footer-company-info {
+    max-width: 400px;
+}
